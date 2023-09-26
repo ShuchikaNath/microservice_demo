@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05468f7-c848-41b8-afb6-8916dec79501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/model/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/model/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/InventoryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/controller/InventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/controller/InventoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/model/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/model/InventoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/microservices/inventoryservice/service/InventoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/microservices/orderservice/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/microservices/orderservice/OrderServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/microservices/orderservice/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/microservices/orderservice/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/microservices/productservice/ProductServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/microservices/productservice/ProductServiceApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="e05468f7-c848-41b8-afb6-8916dec79501" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

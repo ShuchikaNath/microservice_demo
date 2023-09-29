@@ -3,10 +3,13 @@ package com.microservices.orderservice.service;
 import com.microservices.orderservice.dto.InventoryResponse;
 import com.microservices.orderservice.dto.OrderLineItemsDto;
 import com.microservices.orderservice.dto.OrderRequest;
+import com.microservices.orderservice.event.OrderPlacedEvent;
 import com.microservices.orderservice.model.Order;
 import com.microservices.orderservice.model.OrderLineItems;
 import com.microservices.orderservice.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -25,6 +28,11 @@ public class OrderService {
 
     @Autowired
     private WebClient.Builder webClientBuilder;
+    @Autowired
+    private  KafkaTemplate<String,OrderPlacedEvent> kafkaTemplate;
+
+    public OrderService() {
+    }
 
     public String placeOrder(OrderRequest orderRequest){
 
@@ -53,6 +61,8 @@ public class OrderService {
 
         if(allProductsInStock){
             orderRepository.save(order);
+            //making a call to Kafka cluster whenever an order is placed
+            kafkaTemplate.send("notificationTopic",new OrderPlacedEvent(order.getOrderNumber()));
             return "Order placed successfully !!!";
         }
         else{
